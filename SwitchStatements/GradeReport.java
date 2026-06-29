@@ -29,17 +29,17 @@ public class GradeReport
          case 10:
          case 9:
             System.out.println ("well above average. Excellent.");
-            break;
+            
          case 8:
             System.out.println ("above average. Nice job.");
-            break;
+            
          case 7:
             System.out.println ("average.");
-            break;
+            
          case 6:
             System.out.println ("below average. Please see the "
             		+ "instructor for assistance.");
-            break;
+      
          default:
             System.out.println ("not passing. Please see the "
             		+ "instructor for assistance.");

@@ -12,7 +12,7 @@ public class ObjectComparison {
          *   if the contents of the objects are equal. To do this we use
          *   the object's own equals() method. */
 
-        if (p1.equals(p2)) 
+        if (p1.equals(p3))  
         {
             System.out.println("The contents of the two objects are equal.");
         } 

@@ -9,8 +9,8 @@ public class SmartHome {
     public static void main(String[] args)
     {
         final int MAX_TIME = 60; // minutes
-        boolean alertMode = false; 
-        boolean lightsOn = false; 
+        boolean alertMode = true; 
+        boolean lightsOn = true; 
         boolean away = false; 
         int timeOn = 0; //minutes 
 

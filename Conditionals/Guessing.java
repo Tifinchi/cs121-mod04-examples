@@ -17,7 +17,7 @@ public class Guessing
 		int answer, guess;
 
 		Scanner scan = new Scanner(System.in);
-		Random generator = new Random();
+		Random generator = new Random(123);
 
 		answer = generator.nextInt(MAX) + 1;
 

@@ -18,7 +18,7 @@ public class FloatingPointComparison {
 
         /* Instead it is best to avoid direct tests for equality and
          *   check to see if the numbers are "close enough." */
-        final double TOLERANCE = 0.0000000000001;
+        final double TOLERANCE = 0.00000000000000001;
         if ( Math.abs(c - (a-b)) < TOLERANCE ) {
             System.out.println("Life is good! " + a + " - " + b + " is close enough to " + c);
         }

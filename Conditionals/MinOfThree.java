@@ -39,14 +39,14 @@ public class MinOfThree
 
 		// technique 2 
 		min = Integer.MAX_VALUE;
-		if ((num1 <= num2) && (num1 <= num3)) {
-			min = num1;
+		if ((num1 < num2) && (num1 < num3)) {
+   		 min = num1;
 		}
-		if ((num2 <= num3) && (num2 <= num1)) {
-			min = num2;
+		if ((num2 < num3) && (num2 < num1)) {
+    	min = num2;
 		}
-		if ((num3 <= num2) && (num3 <= num1)) {
-			min = num3;
+		if ((num3 < num2) && (num3 < num1)) {
+    	min = num3;
 		}
 		System.out.println("Technique 2 - Minimum value: " + min);
 		
